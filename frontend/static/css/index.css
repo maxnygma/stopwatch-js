@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&family=Roboto&display=swap');
+
+body {
+    top: 0;
+    bottom: 0;
+    background-color: chocolate;
+    color: white;
+    font-family: 'DM Mono', monospace;
+}
+
+.app-title {
+    text-align: center;
+    font-size: 2.2rem;
+    padding: 1rem 3rem 1rem 3rem;
+    text-transform: uppercase;
+}
+
+.stopwatch {
+    padding: 1rem 0 1rem 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 1rem 0;
+}
+
+#button-start, #button-stop, #button-reset {
+    padding: 0.8rem 3.5rem 0.8rem 3.5rem;
+    margin: 1rem 0 0 1rem;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#button-start:hover, #button-stop:hover, #button-reset:hover {
+    color: chocolate;
+    background-color: white;
+    transition: .6s;
+}
