@@ -2,4 +2,4 @@
 
 Simple Stopwatch App with pure JavaScript
 
-Deployed [here](https://stopwatch-js.xzcodes.dev)
+Deployed on [stopwatch-js.xzcodes.dev](https://stopwatch-js.xzcodes.dev)
